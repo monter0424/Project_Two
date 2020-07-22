@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Platform Stats</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/d3Style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="../style.css">
+
+</head>
+
+<body>
+      <!-- Start of navbar -->
+      <div class="navigation">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="../index.html">Back to Homepage</a>
+            <button class="navbar-toggler border" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+    ​
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                  <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" id="navbarDropdownMenuLink" role="button" aria-haspopup="true" aria-expanded="false">Plots by Filters</a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="../Genre/index.html">Genre</a>
+                    <a class="dropdown-item" href="../Year/index.html">Year</a>
+                    <a class="dropdown-item" href="../Publisher/index.html">Publisher</a>
+                    <a class="dropdown-item" href="../Platform/index.html">Platform</a>
+                  </div>
+                </li>
+                <!-- <li class="nav-item">
+            <a class="nav-link" href="comparison.html">Comparison</a>
+          </li> -->
+                <li class="nav-item">
+                    <a class="nav-link" href="../Resources/data.html">Data</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+      </div>
+        <!-- End of navbar -->
+  
+  <div class="container">
+    <div class="title">
+      <h1>Platform Stats</h1>
+    </div>
+    <div class="contain">
+      <div class="left-button">
+        <h4>Directory</h4>
+        <div onclick="changeTable(0)">
+          1.Platform Totals
+        </div>
+        <div onclick="changeTable(1)">
+          2.Pie Chart
+        </div>
+        <div onclick="changeTable(2)">
+          3.Games By Platform
+        </div>
+      </div>
+      <div class="content">
+        <div class="first-table">
+          <div class="top-div">
+            <h3>Platform Totals</h3>
+            <p>Total worldwides sales (in millions of units) per platform. For all platform that are no longer
+              manufactured, all figures are total shipments from manufactures. For current platfroms, all figures are
+              current sales as measured by VGChartz.</p>
+          </div>
+          <div class="first-table-content">
+          </div>
+        </div>
+
+        <div class="second-table">
+          <h3>
+            <div class="platform-select">
+            </div>
+          </h3>
+          <div class="second-table-content">
+          </div>
+        </div>
+
+        <div class="third-table">
+          <h3>
+            <div class="third-platform-select">
+            </div>
+          </h3>
+          <div>
+            
+          </div>
+          <div class="third-table-content">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script type="text/javascript" src="assets/js/app.js"></script>
+
+  <!-- Start of footer -->
+  <footer>
+    <div class="footer">Tom Nook Analytics - Project Team<br>
+      Hannah Golledge | Hung Nguyen | Monte Rodriguez | Peter Lu
+    </div>
+
+  </footer>
+  <!-- End of footer -->
+</body>
+
+</html>

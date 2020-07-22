@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Sticky Footer rules (https://getbootstrap.com/examples/sticky-footer/) */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Padding bottom by footer height */
+  padding-bottom: 80px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+}
+
+.contain {
+  display: flex;
+  /* flex-direction: column; */
+}
+
+.left-button {
+  width: 160px;
+}
+
+.left-button div {
+  margin: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.first-table {
+  width: 100%;
+}
+
+.top-div {
+  background-color: #38ab87;
+  color: #fff;
+  padding: 5px 10px;
+}
+
+.middle-div {
+  background-color: #555;
+  color: #b8b8b8;
+  text-align: center;
+  padding: 10px;
+}
+
+.middle-div span {
+  color: #fbfbfb;
+}
+
+.first-table table th, .third-table table th {
+  background-color: #DFDFDF;
+}
+
+.first-table table td, .third-table table td {
+  background-color: #F5F5F5;
+}
+
+.first-table-content table, .third-table-content table {
+  width: 100%;
+}
+
+.first-table-content table tbody tr, .third-table-content table tbody tr {
+  border-bottom: 0.5px solid #cacaca;
+}
+
+.arrow {
+  display: inline-block;
+  vertical-align: middle;
+  width: 0;
+  height: 0;
+  margin-left: 5px;
+  opacity: 0.66;
+}
+
+.arrow.asc {
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid #373737;
+}
+
+.arrow.dsc {
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #373737;
+}
+
+.hide {
+  display: none;
+}
