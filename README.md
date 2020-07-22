@@ -27,6 +27,6 @@ Utilizing Python Pandas on the back-end and JavaScript and D3 on the front-end, 
 
 ![Sales by Year](Images/Year_Chart.PNG)
 
-![Sales by Platform](Images/Platform_Total_Stat.png)
+![Sales by Platform](Images/Platform_Total_Stat.PNG)
 
-![Platform Pie](Images/Platform_Pie.png)
+![Platform Pie](Images/Platform_Pie.PNG)
