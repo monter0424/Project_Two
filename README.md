@@ -9,8 +9,6 @@ Members: Hannah Golledge, Hung Nguyen, Monte Rodriguez, Peter Lu
 
 Dataset: https://www.kaggle.com/gregorut/videogamesales
 
-GitHub Link: https://github.com/monter0424/ProjectTwo
-
 Dataset Details: 7 columns x 16599 rows
 
 ## Storytelling: 
