@@ -4,7 +4,6 @@ body{
     background-color: #EDEDED; 
 }
 
-
 .navbar{
     max-height: 50px; 
 	background-color: #cacccb; 
@@ -88,13 +87,21 @@ img{
 	height: 100%;
 }
 
+.description-image{
+	top: 100%;
+	left: 1000px;
+	z-index: 1;
+	height: 15%;
+	width: 10%;
+	position: absolute
+}
 
 .description-image_two {
-	top: 30%;
+	top: 50%;
 	left: 200px;
 	z-index: 1;
-	height: 45%;
-	width: 90%;
+	height: 35%;
+	width: 10%;
 	position: absolute
 }
 
